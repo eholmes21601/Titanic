@@ -19,4 +19,4 @@ train$Embarked[train$Embarked ==""]  <- "S"
 summary(train$Age)
 train$MissingAge <- ifelse(is.na(train$Age), "Y", "N")
 
-use_github(protocol = 'https',auth_token = Sys.getenv("GITHUB_PAT"))
+
