@@ -11,8 +11,6 @@ setwd("/Users/eltonholmes/Titanic/data")
 test <- read.csv("test.csv",stringsAsFactors = FALSE)
 train <- read.csv("train.csv",stringsAsFactors = FALSE)
 
-
-
 table(train$Embarked)
 train$Embarked[train$Embarked ==""]  <- "S"
 
