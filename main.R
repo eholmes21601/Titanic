@@ -1,6 +1,8 @@
 #****************************************************
 #   Created  by: Elton Holmes                       
-#   Created for: Titanic Machine Learning Project
+#   Created for: Titanic mL Project
+#   Topic      : Machine Learning
+#   Date       : 04-12-2020
 #****************************************************
 
 library(usethis)
